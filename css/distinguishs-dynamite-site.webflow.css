@@ -305,6 +305,64 @@ a {
   font-weight: 400;
 }
 
+.button-copy {
+  color: #fff;
+  text-align: center;
+  background-color: #00960f;
+  background-image: linear-gradient(95deg, #74ff45, #00a870);
+  border-radius: 3px;
+  margin-right: 21px;
+  padding: 10px 40px;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  transition: background-color .5s cubic-bezier(.789, .159, .25, 1), color .2s cubic-bezier(.789, .159, .25, 1);
+  display: inline-block;
+  position: relative;
+}
+
+.button-copy:hover {
+  color: #6b6b6b;
+  background-color: #fff;
+}
+
+.button-copy.outline {
+  color: #5a5a5a;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #6e6e6e;
+  margin-left: 10px;
+}
+
+.button-copy.contact {
+  background-color: rgba(0, 0, 0, 0);
+  margin-left: 0;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, .2);
+}
+
+.button-copy.contact:hover {
+  color: #fff;
+  box-shadow: inset 0 0 0 2px #fff;
+}
+
+.button-copy.top {
+  margin-left: 30px;
+  padding: 20px 35px;
+  font-size: 16px;
+}
+
+.button-copy.form-button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  transition-timing-function: cubic-bezier(.215, .61, .355, 1), cubic-bezier(.215, .61, .355, 1);
+}
+
+.button-copy.form-button:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+
 .button {
   color: #fff;
   text-align: center;
